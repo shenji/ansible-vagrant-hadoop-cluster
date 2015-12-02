@@ -9,7 +9,7 @@
 iface: eth1
 
 ha_enabled: False
-build_cluster: False      # set to True to build a cluster
+build_cluster: True      # set to True to build a cluster
 install_hdfs: True        # set to false to disable HDFS (only makes sense if
                           # no cluster is built)
 
